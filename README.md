@@ -10,9 +10,9 @@ Sepet güncelleme: Kullanıcılar, sepetlerindeki ürünleri artırabilir, azalt
 Sepeti görüntüleme: Kullanıcılar, sepetlerindeki ürünleri detaylı bir şekilde görüntüleyebilirler.
 Ürünleri satın alma: Kullanıcılar, sepetlerindeki ürünleri satın alabilirler. Satın alma işlemi tamamlandığında toplam fiyat bilgisi kullanıcıya gösterilir.
 <h3>Kullanılan Teknolojiler</h3>
-HTML
-CSS
-JavaScript
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
 <h3>Kurulum ve Çalıştırma</h3>
 Bu projeyi bilgisayarınıza klonlayın.
 Proje dosyalarını bir web sunucusunda veya yerel bir sunucuda çalıştırın.
