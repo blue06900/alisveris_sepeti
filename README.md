@@ -1,3 +1,4 @@
+https://blue06900.github.io/alisveris_sepeti/
 <h2>Alışveriş Sepeti Uygulaması</h2>
 Bu proje, basit bir alışveriş sepeti uygulamasını içermektedir. Kullanıcılar, sepetlerine ürün ekleyebilir, sepeti güncelleyebilir ve ürünleri satın alabilirler.
 
