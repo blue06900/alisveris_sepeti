@@ -22,7 +22,16 @@
                 <div class="d-flex justify-content-between">
                     <div class="input-group mb-3">
                         <form  onsubmit="addProduct(event)">                            
-                            <input type="text" id="productName" placeholder="Ürün Adı" required class="form-control"  >
+                            <!-- <input type="text" id="productName" placeholder="Ürün Adı" required class="form-control"  > -->
+                            
+                                <select id="productName" required class="form-control">
+                                 <option value="">Ürün Seçiniz</option>
+                                  <option value="Ceket">Ceket</option>
+                                  <option value="Gömlek">Gömlek</option>
+                                 <option value="Pantolon">Pantolon</option>
+                                 <option value="T-Shirt">T-Shirt</option>
+                                  <!-- Diğer ürün seçeneklerini buraya ekleyin -->
+                                </select>
                             <input type="number" id="productPrice" placeholder="Fiyat" required class="form-control" min="0" >
                         </form>
                         
