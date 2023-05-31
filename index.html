@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Alışveriş Sepeti</title>
+</head>
+<body >
+    <div class="container p-lg-5 bg-body-secondary ">
+        <div class="row column-gap-3 justify-content-center " style="height: 100vh;" >
+            <div class="card-row col-7 bg-light p-3 " >
+                <p class="text-center h4  ">ÜRÜNLER</p> 
+                <div class="d-flex justify-content-between">
+                    <div class="input-group mb-3">
+                        <form  onsubmit="addProduct(event)">                            
+                            <input type="text" id="productName" placeholder="Ürün Adı" required class="form-control"  >
+                            <input type="number" id="productPrice" placeholder="Fiyat" required class="form-control" min="0" >
+                        </form>
+                        
+                    </div>
+                    
+                    <button type="submit" onclick="addProduct(event)" class="btn btn-sm btn-success " >ÜRÜN EKLE</button>
+                </div>                
+               <hr/>
+               
+               <table class="">
+                <thead class="d-flex " >
+                    <th style="padding-left: 30px " >Ürün Adı</th>
+                    <th style="padding-left: 160px;">Fiyatı</th>
+                </thead>
+                <tbody>
+                    <td id="productList"></td>
+                    
+                </tbody>
+               </table>
+               
+            </div>
+            <div class="card col-4 bg-light p-3 " > 
+                <div class="d-flex h4 justify-content-between">SEPETİNİZ
+                
+                    
+                </div>                
+               <hr/>
+               <table class="">
+                <thead class="d-flex " >
+                    <th style="padding-left: 25px " >Ürün Adı</th>
+                    <th style="padding-left: 140px ">Fiyatı</th>
+                </thead>
+                <tbody>
+                    <td id="cartList"></td>
+                    
+                </tbody>
+               </table>
+               
+               <hr/>
+               <div style="margin-left: 130px;" id="cartTotal">Toplam Fiyat: $0.00</div>
+               <div class="d-flex justify-content-end">
+                <button style="margin-top: 10px; padding: 15px;" onclick="buyCart()" class="btn btn-sm btn-success " >SATIN AL</button>
+               </div> 
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+<script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+</html>

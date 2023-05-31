@@ -1,0 +1,23 @@
+.add-button {
+    
+    border: none;
+    border-radius: 5px;
+    background-color: #157347;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 10px;
+    
+    margin-bottom: 10px;
+  }
+  
+  .delete-button {
+    border: none;
+    border-radius: 5px;
+    background-color: #BB2D3B;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+  }
+ 
+  
