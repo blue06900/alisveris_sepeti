@@ -1,6 +1,8 @@
 <h2>Alışveriş Sepeti Uygulaması</h2>
 Bu proje, basit bir alışveriş sepeti uygulamasını içermektedir. Kullanıcılar, sepetlerine ürün ekleyebilir, sepeti güncelleyebilir ve ürünleri satın alabilirler.
 
+![Project Snapshot](alisveris.jpg)
+
 <h3>Proje Açıklaması</h3>
 Bu uygulama, kullanıcıların çevrimiçi alışveriş yaparken ürünleri sepetlerine eklemelerine ve yönetmelerine olanak sağlar. Kullanıcılar, ürün listesinden istedikleri ürünleri seçip sepetlerine ekleyebilirler. Sepetlerindeki ürünleri görüntüleyebilir, sepetin içeriğini güncelleyebilir ve ürünleri satın alabilirler.
 
